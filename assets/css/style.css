@@ -10,6 +10,133 @@
 }
 
 /* hero section by sahwag */
+.head-2 {
+    font-weight: var(--fw-md);
+    font-size: var(--fs-3xl);
+    color: white;
+    font-family: "Yantramanav", serif;
+}
+
+.mid-text-2 {
+    color: #BBBABA;
+    font-size: var(--fs-md);
+    font-weight: var(--fw-sm);
+    font-family: "Yantramanav", serif;
+    max-width: 520px;
+}
+
+.circle-2 {
+    width: 71px;
+    height: 71px;
+    background-color: #fff;
+    border-radius: 100px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.large-text-2 {
+    font-size: var(--fs-lg);
+    color: white;
+    font-weight: var(--fw-md);
+    margin: 0;
+}
+
+.card-1 {
+    max-width: 660px;
+    padding-bottom: 10px;
+    background-color: #151313;
+    border-radius: 46px;
+}
+
+.card-2 {
+    max-width: 660px;
+    padding-bottom: 10px;
+    background-color: #151313;
+    border-radius: 46px;
+    margin-top: 15px;
+}
+
+.card-3 {
+    max-width: 660px;
+    padding-bottom: 10px;
+    background-color: #151313;
+    border-radius: 46px;
+    margin-top: 15px;
+}
+
+.card-3:hover {
+    background-color: #0C0B0B;
+}
+
+.card-2:hover {
+    background-color: #0C0B0B;
+}
+
+.card-1:hover {
+    background-color: #0C0B0B;
+}
+
+.short-div-2 {
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+.small-text-2 {
+    font-weight: var(--fw-sm);
+    font-size: var(--fs-md);
+    color: #B6B6B6;
+    font-family: "Yantramanav", serif;
+    margin: 0;
+}
+
+.circle-2:hover {
+    background: linear-gradient(90deg, #FFA800 0%, #F06500 100%);
+    color: white;
+}
+
+.pt-89 {
+    padding-top: 89px;
+}
+
+.pb-87 {
+    padding-bottom: 87px;
+}
+
+.circ-text-2 {
+    padding-top: 20px;
+    font-weight: var(--fw-md);
+    font-size: var(--fs-lg);
+}
+
+.box-parent-2 {
+    gap: 10px;
+    margin-top: 40px;
+}
+
+.img-2 {
+    max-width: 905px;
+    right: 0;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+.bg-color-2 {
+    background-color: #1D1A1A;
+    padding-bottom: 185px;
+    padding-top: 90px;
+}
+
+@media (max-width:1200px) {
+    .img-2 {
+        margin-left: 0px;
+
+    }
+
+    .bg-color-2 {
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+}
 
 /*------------navbar-details---------------*/
 
