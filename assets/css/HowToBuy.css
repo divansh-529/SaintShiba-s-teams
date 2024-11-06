@@ -84,6 +84,14 @@
     color: white;
 }
 
+.pt-89 {
+    padding-top: 89px;
+}
+
+.pb-87 {
+    padding-bottom: 87px;
+}
+
 .circ-text {
     padding-top: 20px;
     font-weight: var(--fw-md);
@@ -97,8 +105,8 @@
 
 .img {
     right: 0;
-     margin-left: 70px;
-    margin-top: 20px; 
+    margin-left: 70px;
+    margin-top: 20px;
 }
 
 .bg-color {
@@ -106,8 +114,8 @@
 }
 
 @media (max-width:1200px) {
-    .img{
+    .img {
         margin-left: 0px;
-        
+
     }
 }
