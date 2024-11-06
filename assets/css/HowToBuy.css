@@ -12,7 +12,7 @@
     font-size: var(--fs-md);
     font-weight: var(--fw-sm);
     font-family: "Yantramanav", serif;
-    max-width: 660px;
+    max-width: 520px;
 }
 
 .circle {
@@ -20,7 +20,6 @@
     height: 71px;
     background-color: #fff;
     border-radius: 100px;
-
     margin-left: 10px;
     margin-top: 10px;
 }
@@ -33,25 +32,25 @@
 }
 
 .box {
-    width: 660px;
-    height: 92px;
+    max-width: 660px;
+    padding-bottom: 10px;
     background-color: #151313;
     border-radius: 46px;
 }
 
 .box-2 {
-    width: 660px;
-    height: 92px;
+    max-width: 660px;
+    padding-bottom: 10px;
     background-color: #151313;
-    border-radius: 46px; 
+    border-radius: 46px;
     margin-top: 15px;
 }
 
 .box-3 {
-    width: 660px;
-    height: 92px;
+    max-width: 660px;
+    padding-bottom: 10px;
     background-color: #151313;
-    border-radius: 46px; 
+    border-radius: 46px;
     margin-top: 15px;
 }
 
@@ -85,19 +84,30 @@
     color: white;
 }
 
-section {
-    background-color: #1D1A1A;
-    min-height: 100vh;
-    align-items: center;
-}
-
-.circ-text{
+.circ-text {
     padding-top: 20px;
-    font-weight: var( --fw-md);
-    font-size: var( --fs-lg);
+    font-weight: var(--fw-md);
+    font-size: var(--fs-lg);
 }
 
-.box-parent{
+.box-parent {
     gap: 10px;
     margin-top: 40px;
+}
+
+.img {
+    right: 0;
+     margin-left: 70px;
+    margin-top: 20px; 
+}
+
+.bg-color {
+    background-color: #1D1A1A;
+}
+
+@media (max-width:1200px) {
+    .img{
+        margin-left: 0px;
+        
+    }
 }
