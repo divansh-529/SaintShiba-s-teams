@@ -110,7 +110,7 @@ font-family: poppins;
 }
 /* ========== section 1 details ===========*/
 .bg-img{
-    background-image: url(/assets/images/webp/bg-section-img.png);
+    background-image: url(/SaintShiba-s-teams/assets/images/webp/bg-section-img.png);
     background-repeat: no-repeat;
     min-height: 100vh;
     position: relative;
@@ -163,6 +163,9 @@ font-family: poppins;
 }
 .min-vh{
     min-height: 100vh;
+}
+.mb-120{
+    margin-bottom: 120px;
 }
 .pt-24{
     padding-top: 24px;
