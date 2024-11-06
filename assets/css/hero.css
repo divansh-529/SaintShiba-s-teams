@@ -107,7 +107,7 @@ color: white;
 }
 /* ========== section 1 details ===========*/
 .bg-img{
-    background-image: url(/SaintShiba-s-teams/assets/images/webp/bg-section-img.png);
+    background-image: url(/assets/images/webp/bg-section-img.png);
     background-repeat: no-repeat;
     min-height: 100vh;
     position: relative;
