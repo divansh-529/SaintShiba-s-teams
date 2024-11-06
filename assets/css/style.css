@@ -204,7 +204,7 @@ ul li a {
     margin-bottom: 120px;
 }
 
-.box {
+.box-section-1 {
     margin-top: 50px;
     margin-bottom: 0;
 }
@@ -682,7 +682,7 @@ takenomics */
 }
 
 @media (max-width:1200px) {
-    .box {
+    .box-section-1 {
         margin-top: 100px;
     }
 }
