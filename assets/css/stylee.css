@@ -491,6 +491,15 @@ ul li a {
         border-bottom-right-radius: 10px;
     }
 
+
+
+    .circle-img {
+        max-width: 361px;
+    }
+
+}
+
+@media (min-width:1200px) {
     .fox {
         animation-duration: 4s;
         animation-name: slidein;
@@ -507,11 +516,6 @@ ul li a {
             margin-left: 0%;
         }
     }
-
-    .circle-img {
-        max-width: 361px;
-    }
-
 }
 
 
@@ -527,9 +531,20 @@ ul li a {
 
 /* roadmap */
 /* roadmap */
-.circle-layer-roadmap{
+.circle-layer-roadmap {
     position: absolute;
     left: 0;
+    top: 38%;
+}
+.circle-layer{
+    position: absolute;
+    right: -33%;
+    top: 0;
+}
+.orange-layer{
+    position: absolute;
+        right: -40%;
+        top: -25%;
 }
 
 .poppins {
