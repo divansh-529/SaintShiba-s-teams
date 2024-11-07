@@ -527,7 +527,10 @@ ul li a {
 
 /* roadmap */
 /* roadmap */
-
+.circle-layer-roadmap{
+    position: absolute;
+    left: 0;
+}
 
 .poppins {
     font-family: "poppins", sans-serif;
