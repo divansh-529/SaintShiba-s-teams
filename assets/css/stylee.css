@@ -374,6 +374,7 @@ ul li a {
 
 .bg-custom-black {
     background-color: #0C0B0B;
+    margin-top: -2px;
 }
 
 .box {
@@ -527,7 +528,7 @@ ul li a {
 
 /* roadmap */
 /* roadmap */
-.circle-layer-roadmap{
+.circle-layer-roadmap {
     position: absolute;
     left: 0;
 }
@@ -687,4 +688,73 @@ ul li a {
     .down-arrow {
         display: none;
     }
+}
+
+
+
+
+/* faq */
+.accordion-button:focus {
+    z-index: 0 !important;
+    outline: 0 !important;
+    box-shadow: none !important;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #181818 !important;
+}
+
+.accordion-button:not(.collapsed) {
+    color: white !important;
+    box-shadow: none !important;
+}
+
+.faq-heading {
+    font-size: var(--fs-3xl);
+    font-weight: var(--fw-md);
+}
+
+.accordion-button {
+    font-size: var(--fs-md);
+    font-weight: var(--fw-md);
+    color: white;
+}
+
+.accordion-para {
+    font-size: var(--fs-md);
+    font-weight: var(--fw-sm);
+    color: #B9B8B8;
+
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.accordion-body {
+    background-color: #181818;
+}
+
+button.accordion-button {
+    background-color: #181818;
+}
+
+button.accordion-button {
+    color: white;
+}
+
+.accordion-item {
+    border-color: #414141 !important;
+}
+
+button.accordion-button.collapsed {
+    border: 1.9px solid #414141;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url(/assets/images/webp/BOTTOM-ARROW.png) !important;
+}
+
+.accordion-button::after {
+    background-image: url(/assets/images/webp/BOTTOM-ARROW.png) !important;
 }
