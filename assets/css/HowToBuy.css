@@ -1,18 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Yantramanav:wght@100;300;400;500;700;900&display=swap');
 
+
+.text-parent {
+    padding-left: 40px;
+}
+
 .head-2 {
     font-weight: var(--fw-md);
     font-size: var(--fs-3xl);
     color: white;
-    font-family: "Yantramanav", serif;
+    font-family: "Poppins", serif;
+
 }
 
 .mid-text-2 {
     color: #BBBABA;
     font-size: var(--fs-md);
     font-weight: var(--fw-sm);
-    font-family: "Yantramanav", serif;
-    max-width: 520px;
+    font-family: "Poppins", serif;
+    max-width: 660px;
 }
 
 .circle-2 {
@@ -29,6 +35,7 @@
     color: white;
     font-weight: var(--fw-md);
     margin: 0;
+    font-family: "Poppins", serif;
 }
 
 .card-1 {
@@ -75,7 +82,7 @@
     font-weight: var(--fw-sm);
     font-size: var(--fs-md);
     color: #B6B6B6;
-    font-family: "Yantramanav", serif;
+    font-family: "Poppins", serif;
     margin: 0;
 }
 
@@ -101,28 +108,49 @@
 .box-parent-2 {
     gap: 10px;
     margin-top: 40px;
+    margin-left: 30px;
+}
+
+.img-parent {
+    max-width: 1056px;
 }
 
 .img-2 {
-    right: 0;
-    margin-left: 70px;
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .bg-color-2 {
     background-color: #1D1A1A;
-    padding-bottom: 185px;
-    padding-top: 90px;
+    padding-bottom: 165px;
+    padding-top: 110px;
 }
 
 @media (max-width:1200px) {
     .img-2 {
         margin-left: 0px;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-top: 60px;
+        margin-bottom: 20px;
+    }
+
+    .bg-color-2 {
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+
+    .head-2{
+        margin-top: 20px;
+    }
+}
+
+@media (min-width:1700px) {
+    .text-parent {
+        padding-left: 180px;
 
     }
 
-    .bg-color-2{
-        padding-bottom: 0;
-        padding-top: 0;
+    .box-parent-2 {
+        margin-left: 170px;
     }
 }
