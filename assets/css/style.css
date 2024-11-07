@@ -325,7 +325,7 @@ ul li a {
     }
 
     50% {
-        transform: translateY(-100px);
+        transform: translateY(-60px);
     }
 }
 
@@ -417,6 +417,10 @@ ul li a {
 }
 
 /* faq */
+/* .accordion-button {
+    box-shadow: none !important;
+    border: 0 !important;
+} */
 .accordion-bottom-layer {
     position: absolute;
     right: -50% !important;
@@ -497,6 +501,7 @@ button.accordion-button {
 
 button.accordion-button.collapsed {
     border: 1.9px solid #414141;
+    border-radius: 10px !important;
 }
 
 .accordion-button:not(.collapsed)::after {
