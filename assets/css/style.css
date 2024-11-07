@@ -10,11 +10,47 @@
 }
 
 /* hero section by sahwag */
+.pt-285 {
+    padding-top: 285px;
+}
+
+.layer-1-bg-dog {
+    top: -25%;
+    left: -50%;
+}
+
+.layer-2-bg-dog {
+    bottom: -25%;
+    right: -50%;
+}
+
+.max-w-551 {
+    max-width: 551px;
+}
+
+.pt-59 {
+    padding-top: 59px;
+}
+
+.max-565 {
+    max-width: 565px;
+}
+
+.ml-auto {
+    margin-left: auto;
+}
+
 .head-2 {
     font-weight: var(--fw-md);
     font-size: var(--fs-3xl);
     color: white;
     font-family: "Yantramanav", serif;
+}
+
+.section-one-part-2 {
+    margin-top: -1px;
+    margin-bottom: -1px;
+    background: #0c0b0b;
 }
 
 .mid-text-2 {
@@ -126,6 +162,26 @@
     padding-top: 90px;
 }
 
+@media (max-width:1260px) {
+    .max-1260-p-releative {
+        position: relative !important;
+    }
+
+    .max-1260-pt-38 {
+        padding-top: 38px !important;
+    }
+}
+
+@media (max-width: 1788px) {
+    .layer-1-bg-dog {
+        display: none;
+    }
+
+    .layer-2-bg-dog {
+        display: none;
+    }
+}
+
 @media (max-width:1200px) {
     .img-2 {
         margin-left: 0px;
@@ -141,10 +197,11 @@
 /*------------navbar-details---------------*/
 
 nav {
+    margin-bottom: -1px;
     width: 100%;
     position: relative;
     z-index: 1;
-    background: #000;
+    background: #070402;
 }
 
 .gap-32 {
@@ -155,7 +212,8 @@ nav {
     font-family: Poppins;
     font-size: 16px;
     font-weight: 400;
-    padding-top: 30px;
+    padding-top: 27px;
+    margin-bottom: 27px;
     text-align: left;
 }
 
@@ -164,6 +222,7 @@ ul li a {
 }
 
 .connect-btn {
+    line-height: 180%;
     padding: 7px 23px 7px 23px;
     background: linear-gradient(90deg, #FFA800 0%, #F06500 100%);
     border-radius: 23.5px;
@@ -173,12 +232,23 @@ ul li a {
     font-family: poppins;
 }
 
+.connect-btn-2 {
+    line-height: 150%;
+    padding: 12px 32px 12px 32px;
+    background: linear-gradient(90deg, #FFA800 0%, #F06500 100%);
+    border-radius: 23.5px;
+    color: white;
+    font-size: var(--fs-lg);
+    font-weight: var(--fw-md);
+    font-family: poppins;
+}
+
 
 /* ========== section 1 details ===========*/
 .bg-img {
-    background-image: url(/assets/images/webp/bg-section-img.png);
+    background-image: url(/assets/images/png/Home-bg.png);
     background-repeat: no-repeat;
-    min-height: 100vh;
+
     position: relative;
     background-size: cover;
 }
@@ -205,7 +275,7 @@ ul li a {
 }
 
 .box-section-1 {
-    margin-top: 50px;
+    margin-top: 100px;
     margin-bottom: 0;
 }
 
@@ -253,10 +323,9 @@ ul li a {
 
 .box-2 {
     backdrop-filter: blur(32px);
-    transform: translateY(-100px);
+    transform: translateY(-114px);
     padding: 24px;
     border: 1px solid grey;
-    position: relative;
     z-index: 4;
 }
 
@@ -264,9 +333,6 @@ ul li a {
     padding-top: 150px;
 }
 
-.box-3 {
-    margin-top: 300px;
-}
 
 .mx-w {
     max-width: 660px;
@@ -547,6 +613,8 @@ takenomics */
         display: none;
     }
 }
+
+
 
 @media (max-width:767.99px) {
     .timeline-component {
