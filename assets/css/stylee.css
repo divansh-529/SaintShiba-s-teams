@@ -492,6 +492,15 @@ ul li a {
         border-bottom-right-radius: 10px;
     }
 
+
+
+    .circle-img {
+        max-width: 361px;
+    }
+
+}
+
+@media (min-width:1200px) {
     .fox {
         animation-duration: 4s;
         animation-name: slidein;
@@ -508,11 +517,6 @@ ul li a {
             margin-left: 0%;
         }
     }
-
-    .circle-img {
-        max-width: 361px;
-    }
-
 }
 
 
@@ -528,9 +532,26 @@ ul li a {
 
 /* roadmap */
 /* roadmap */
+.mt--2 {
+    margin-top: -2px;
+}
+
 .circle-layer-roadmap {
     position: absolute;
     left: 0;
+    top: 38%;
+}
+
+.circle-layer {
+    position: absolute;
+    right: -33%;
+    top: 0;
+}
+
+.orange-layer {
+    position: absolute;
+    right: -40%;
+    top: -25%;
 }
 
 .poppins {
@@ -814,11 +835,13 @@ button.accordion-button.collapsed {
     margin-top: 15px;
 }
 
-.px--12 {
-    padding-left: -12px;
-    padding-right: -12px;
+.px-12 {
+    padding-left: 12px;
+    padding-right: 12px;
 
 }
+
+
 
 .card-3 {
     max-width: 660px;
@@ -879,7 +902,8 @@ button.accordion-button.collapsed {
 }
 
 .img-parent {
-    max-width: 1056px;
+    max-width: 905px;
+    margin-left: auto;
 }
 
 .img-2 {
@@ -888,8 +912,8 @@ button.accordion-button.collapsed {
 
 .bg-color-2 {
     background-color: #1D1A1A;
-    padding-bottom: 165px;
-    padding-top: 110px;
+    padding-bottom: 87px;
+    padding-top: 89px;
 }
 
 
